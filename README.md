@@ -5,14 +5,14 @@ Trabalharemos com Linux Ubuntu versão 20.04 ou superior. Se você tem uma vers�
 ▪ Se estiver trabalhando com o Windows é necessário o Windows 10 Pro/Enterprise/Education versão 1803 ou posterior. Caso contrário, além do multipass, você vai precisar instalar o virtualbox.
 
 ▪ Caso precise virtualizar, seja no Windows, Linux mais antigo ou Mac, proceda da seguinte forma para instalar a máquina virtual:
-  1. Instale o multipass.
-  2. Abra um terminal e veja as images Ubuntu disponíveis:
+   ❑ Instale o multipass. 
+   ❑ Abra um terminal e veja as images Ubuntu disponíveis:
      
       $ multipass find
      
-  2. Crie a máquina virtual (Ubuntu Noble 20.04) chamada de riscv digitando o comando abaixo no terminal.
      
-
+   ❑ Crie a máquina virtual (Ubuntu Noble 20.04) chamada de riscv digitando o comando abaixo no terminal.
+  
       $ multipass launch noble --name riscv
      
 ▪ Concluída a instalação da máquina virtual, realize os seguintes testes:
