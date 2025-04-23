@@ -9,9 +9,12 @@ Trabalharemos com Linux Ubuntu versão 20.04 ou superior. Se você tem uma vers�
   2. Abra um terminal e veja as images Ubuntu disponíveis:
      
       $ multipass find
+     
   2. Crie a máquina virtual (Ubuntu Noble 20.04) chamada de riscv digitando o comando abaixo no terminal.
      
+
       $ multipass launch noble --name riscv
+     
 ▪ Concluída a instalação da máquina virtual, realize os seguintes testes:
 
   ❑ Liste o status das VMs presentes no seu computador:
